@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.9;
+}
+
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card" id="myNavbar">
+    <img src="sus1.png" alt="Sushant Logo" style="width:245px;height:70px;">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">CLUBS</a>
+      <a href="#clubs" class="w3-bar-item w3-button"> TEAM</a>
+      <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+
+</nav>
+<div class="w3-container w3-light-grey" style="padding:126px 16px" id="Facilities">
+    <h1 class="w3-center"><b><u>FACILITIES</u></b></h1>
+
+
+<!-- "Auditorium" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3><b><u>AUDITORIUM</u></b></h3>
+      <p>An auditorium is a room built to enable an audience to hear and watch performances. For movie theatres, the number of auditoria (or auditoriums) is expressed as the number of screens. Auditoria can be found in entertainment venues, community halls, and theaters, and may be used for rehearsal, presentation, performing arts productions, or as a learning space.
+          
+    <br>Size - 7585x4644</br>
+          Capacity - 250 persons
+          .</p>
+      <p><a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Know More</a>
+		<a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Book Now</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="audi2.jpg" alt="Club" width="650" height="350">
+    </div>
+  </div>
+</div>
+
+
+<!-- "Architechture Amphitherter" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3><b><u>ARCHITECTURE AMPHITHEATER</u></b></h3>
+        <p>An oval large stadium with tiers of seats; an arena in which contests and spectacles are held
+            <br>
+            Size - 7589x8589<br>
+            Capacity - 300 persons
+        </p>
+        <p><a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Know More</a>
+          <a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Book Now</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="amphi1.jpg" alt="Club" width="650" height="300">
+      </div>
+    </div>
+  </div>
+  <!-- "Conference room" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3><b><u>CONFERENCE ROOM</u></b></h3>
+        <p>Conference rooms are meant for formal or large meetings. Due to their size and seating possibilities, conference rooms are often used for lectures with one person leading the meeting and speaking to the rest of the group. The best type of conference room meeting is focused on education, training, or presentations.</p>
+       <br> Size-5464x3544<br>
+       Capacity - 14 persons
+        <p><a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Know More</a>
+          <a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Book Now</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="conference2.jpg" alt="Club" width="650" height="300">
+      </div>
+    </div>
+  </div>
+  <!-- "Basketball Ground" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3><b><u>BASKETBALL GROUND</u></b></h3>
+        <p>In basketball, the basketball court is the playing surface, consisting of a rectangular floor, with baskets at each end. Indoor basketball courts are almost always made of polished wood, usually maple, with 3.048 metres (10.00 ft)-high rims on each basket. Outdoor surfaces are generally made from standard paving materials such as concrete or asphalt.</p>
+       <br> Size - 28m long and 15m wide.
+        <p><a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Know More</a>
+          <a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Book Now</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="basket1.jpg" alt="Club" width="650" height="300">
+      </div>
+    </div>
+  </div>
+ 
+   <!-- "Bus Service" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h3><b><u>Bus Service</u></b></h3>
+        <p>Bus, any of a class of large, self-propelled, wheeled vehicles that are designed to carry passengers, generally on a fixed route. They were developed at the beginning of the 20th century to compete with streetcars by providing greater route flexibility.</p>
+<br> Size - 1223x546<br>
+Capacity - 48 persons
+        <p><a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Know More</a>
+          <a href="#work" class="w3-button w3-red"><i class="fa fa-th"> </i> Book Now</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="bus1.png" alt="Club" width="650" height="300">
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+<!
+
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sec-56 Gurugram, Haryana</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 1800 270 5520</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@ansaluniversity.edu.in</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
